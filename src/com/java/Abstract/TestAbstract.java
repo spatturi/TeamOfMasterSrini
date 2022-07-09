@@ -1,4 +1,4 @@
-package com.java.Abstract;
+package src.com.java.Abstract;
 
 public class TestAbstract {
     public static void main(String[] args) {

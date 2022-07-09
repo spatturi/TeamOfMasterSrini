@@ -1,4 +1,4 @@
-package com.project.PasswordGenerator;
+package src.com.project.PasswordGenerator;
 
 
 public class Password {

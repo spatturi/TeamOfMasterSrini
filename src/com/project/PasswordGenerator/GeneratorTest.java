@@ -1,4 +1,4 @@
-package com.project.PasswordGenerator;
+package src.com.project.PasswordGenerator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
