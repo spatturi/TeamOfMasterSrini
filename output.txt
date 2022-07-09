@@ -1,0 +1,14 @@
+java.util.SortedSet
+====================
+
+If we want to represent a group of individual objects into 
+some sorting order then we should use SortedSet.
+
+
+  public abstract java.util.SortedSet<E> subSet(E, E);
+  public abstract java.util.SortedSet<E> headSet(E);
+  public abstract java.util.SortedSet<E> tailSet(E);
+  public abstract E first();
+  public abstract E last();
+
+
