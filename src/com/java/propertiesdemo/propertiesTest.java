@@ -17,7 +17,6 @@ public class propertiesTest {
         String username2 = p.getProperty("username1","superuser");//superuser
         String password = p.getProperty("password");
 
-
         System.out.println("username:"+username+","+"password:"+password);
         System.out.println("username1:"+username1);
         System.out.println("username2:"+username2);

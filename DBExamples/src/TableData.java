@@ -16,7 +16,7 @@ public class TableData {
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","Dhruva@2012");
 //            System.out.println("tableName:"+tableName);
             String query = "select * from $table_Name".replace("$table_Name",tableName);
-            System.out.println("query:"+query);
+//            System.out.println("query:"+query);
             PreparedStatement pstmt = conn.prepareStatement(query);
             ResultSet rs = pstmt.executeQuery();
             ResultSetMetaData rsm  = pstmt.getMetaData();
